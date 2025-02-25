@@ -179,12 +179,6 @@ export default function Checkout() {
                 <Image src={Mandiri} alt="Mandiri" width={50} height={30} />
                 <Image src={Visa} alt="Visa" width={50} height={30} />
               </label>
-              <label className="flex items-center space-x-2">
-                <input type="radio" name="payment" value="Agen" onChange={() => setPaymentMethod('Agen')} />
-                <span>Bayar Tunai di Mitra/Agen</span>
-                <Image src={Indomaret} alt="Indomaret" width={50} height={30} />
-                <Image src={Alfamart} alt="Alfamart" width={50} height={30} />
-              </label>
             </div>
           </div>
           {/* Tombol Pesan */}

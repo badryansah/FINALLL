@@ -610,7 +610,7 @@ function Home() {
                   <span className="text-sm text-gray-500">({item.reviews})</span>
                 </div>
                 {index > -1 && (
-                  <button className="w-full mt-4 py-2 bg-[#315CEA] text-white rounded-sm text-sm">
+                  <button className="w-full mt-4 py-2 bg-[#4F75FF] text-white rounded-sm text-sm">
                     Add To Cart
                   </button>
                 )}
